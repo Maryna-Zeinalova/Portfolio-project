@@ -57,6 +57,23 @@
 .project-descriprion{
     padding: 120px 60px;
 }
+
+.about-content h1{
+    font-size: 64px;
+    font-family: var(--heading-font);
+    line-height: 80px;
+}
+
+.about-content h2{
+    font-family: var(--default-font);
+    font-size: 18px;
+}
+.about-content{
+    margin: 30px;
+}
+.about-page{
+    padding: 160px 20px;
+}
 @media(max-width: 960px){
     .hero{
         padding: 80px 20px;
@@ -73,5 +90,10 @@
     .project-descriprion{
         padding: 0;
         text-align: center;
+    }
+
+    .about-page{
+        text-align: center;
+        padding: 0;
     }
 }
