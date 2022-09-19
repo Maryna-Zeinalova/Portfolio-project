@@ -74,6 +74,20 @@
 .about-page{
     padding: 160px 20px;
 }
+.content{
+    padding: 160px 20px;
+}
+.content h1{
+    font-size: 64px;
+    font-family: var(--heading-font);
+    line-height: 80px;
+}
+.content h3{
+    font-family: var(--default-font);
+    font-weight: 700;
+    font-size: 24px;
+    margin: 20px 0 0;
+}
 @media(max-width: 960px){
     .hero{
         padding: 80px 20px;
@@ -95,5 +109,8 @@
     .about-page{
         text-align: center;
         padding: 0;
+    }
+    .content{
+        padding: 80px 20px;
     }
 }
