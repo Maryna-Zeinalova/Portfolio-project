@@ -75,7 +75,7 @@
     padding: 160px 20px;
 }
 .content{
-    padding: 160px 20px;
+    padding: 120px 60px;
 }
 .content h1{
     font-size: 64px;
@@ -112,5 +112,6 @@
     }
     .content{
         padding: 80px 20px;
+        text-align: center;
     }
 }
